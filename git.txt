@@ -1,0 +1,15 @@
+git config --global user.email "username@domain.com"
+git config --global user.name "Username"
+
+git init
+git add file_name.extension
+git add .	[adds new and modified files from the current directory but does not include deleted files]
+git add -A	[adds all changes - new, modified and deleted files - throughout the entire repository]
+git commit -m "New project: Git"
+git branch -M main
+git remote add origin https://github.com/Ntkgzd/Git.git
+git push -u origin main
+
+git status
+git log
+git branch
