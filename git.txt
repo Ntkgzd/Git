@@ -17,6 +17,7 @@ git branch
 git branch -m new-branch 2nd-branch
 git switch -
 git switch main
+git cherry-pick 0123456789abcdef0123456789abcdef01234567
 git merge 2nd-branch
 git branch -d 2nd-branch
 git log
