@@ -10,9 +10,15 @@ git init
 git status
 git add -A
 git commit -m "What has been changed?"
+git commit --amend
 git log
 git diff
 git restore <file>
 git reset head^
 git reset --hard 0123456789abcdef0123456789abcdef01234567
 git revert 0123456789abcdef0123456789abcdef01234567
+git rebase -i 0123456789abcdef0123456789abcdef01234567
+git stash -u
+git stash list
+git stash pop
+git stash clear
