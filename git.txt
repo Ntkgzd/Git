@@ -11,6 +11,7 @@ git status
 git add -A
 git commit -m "What has been changed?"
 git commit --amend
+git push
 git log
 git diff
 git restore <file>
