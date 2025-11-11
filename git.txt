@@ -15,9 +15,9 @@ git push
 git switch -c "new-branch"
 git branch
 git branch -m new-branch 2nd-branch
-git switch main
 git switch -
-git merge Test
+git switch main
+git merge 2nd-branch
 git branch -d 2nd-branch
 git log
 git diff
