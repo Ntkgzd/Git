@@ -12,6 +12,9 @@ git add -A
 git commit -m "What has been changed?"
 git commit --amend
 git push
+git switch -c "new-branch"
+git branch
+git switch main
 git log
 git diff
 git restore <file>
