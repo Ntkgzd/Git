@@ -15,6 +15,7 @@ git push
 git switch -c "new-branch"
 git branch
 git switch main
+git switch -
 git log
 git diff
 git restore <file>
