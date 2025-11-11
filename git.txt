@@ -7,11 +7,12 @@ git config --global user.email "username@domain.com"
 git config --global user.name "Username"
 
 git init
-git add -A
 git status
+git add -A
+git commit -m "What has been changed?"
 git log
 git diff
-git commit -m "What has been changed?"
-git reset head^
 git restore <file>
+git reset head^
+git reset --hard 0123456789abcdef0123456789abcdef01234567
 git revert 0123456789abcdef0123456789abcdef01234567
